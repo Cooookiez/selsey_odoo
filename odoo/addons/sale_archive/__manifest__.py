@@ -23,7 +23,9 @@
     'depends': ['base', 'sale', 'sale_management'],
 
     # always loaded
-    'data': [],
+    'data': [
+        'views/menu.xml'
+    ],
 
     # only loaded in demonstration mode
     'demo': [],
