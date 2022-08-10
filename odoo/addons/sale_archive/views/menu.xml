@@ -4,6 +4,7 @@
     <menuitem
             id="sale_archive_root"
             name="Sale Archives"
+            action="action_sale_order_archive"
             sequence="0"/>
 
 </odoo>
