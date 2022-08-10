@@ -1,5 +1,5 @@
 {
-    'name': "sale.order.archive",
+    'name': "Sale Archive",
     'application': True,
     'sequence': -20,
 
@@ -24,7 +24,8 @@
 
     # always loaded
     'data': [
-        'views/menu.xml'
+        'views/menu.xml',
+        'views/order_view.xml',
     ],
 
     # only loaded in demonstration mode
